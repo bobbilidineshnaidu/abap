@@ -1,0 +1,13 @@
+@EndUserText.label: 'service defination for rap_travel'
+define service ZUI_rap_travel_134 {
+  expose zc_rap_travel_134 as travel;
+  expose ZC_Booking_134    as booking;
+  expose /DMO/I_Agency     as agency;
+  expose /DMO/I_Customer   as customer;
+  expose /DMO/I_Flight     as flight;
+  expose /DMO/I_Carrier    as carrier;
+  expose /DMO/I_Connection as connection;
+  expose /DMO/I_Airport    as airport;
+  expose I_Currency        as currency;
+  expose I_Country         as country;
+}

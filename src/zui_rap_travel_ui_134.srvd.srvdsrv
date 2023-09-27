@@ -1,0 +1,12 @@
+@EndUserText.label: 'travel service definition'
+define service Zui_rap_travel_ui_134 {
+  expose zc_rap_travel_ui_134  as Travel;
+  expose zc_rap_booking_ui_134 as Booking;
+  expose /DMO/I_Customer       as Passenger;
+  expose /DMO/I_Agency         as TravelAgency;
+  expose /DMO/I_Carrier        as Airline;
+  expose /DMO/I_Flight         as Flight;
+  expose /DMO/I_Connection     as Connection;
+  expose /DMO/I_Airport        as Airport;
+  expose I_Currency            as Currency;
+}
